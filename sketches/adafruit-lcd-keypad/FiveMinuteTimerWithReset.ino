@@ -1,3 +1,10 @@
+// This sketch uses the LiquidCrystal library to control the display. 
+// The setup function initializes the display and sets the start time of the timer. 
+// The loop function decrements the timer every second and displays the remaining time on the second line of the display. 
+// When the timer reaches 0, the display shows "Time's up!" and the loop stops. 
+// To restart the timer, simply press the reset button on the Arduino board.
+
+
 #include <LiquidCrystal.h>
 
 LiquidCrystal lcd(8, 9, 4, 5, 6, 7);
