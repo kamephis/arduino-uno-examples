@@ -1,5 +1,13 @@
 /*
-  This example uses a moisture sensor
+  This example uses a moisture sensor and prints out a percentage level based on the
+  soilMoistLeveLow and soilMoistLevelHigh. This highly depends on your plants.
+
+  Pin Settings
+  
+  Arduino UNO: + = 5V, - = GND, A = A0
+  ESP32: + = 3.3V, - GND, A = A0 (36) / VP
+  ESP8266: + 3,3V, - GND, A = A0
+  Arduino Mega: + 5V, - GND, A = A0
 */
 
 const int soilMoistPin = A0;
