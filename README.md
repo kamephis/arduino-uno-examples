@@ -1,4 +1,4 @@
-# arduino-uno-examples
+# Arduino Uno Examples
 This repository contains a collection of Arduino uno example sketches
 
 # Examples
@@ -12,3 +12,6 @@ This example uses timer libraries to display the default unix time starting at 1
 
 3. 5 Minute Timer
 This is a more advanced example displaying a 5 minute timer which can be reset by pressing the reset button.
+
+4. Switch
+In this example we are using a swtich to turn on a LED.
