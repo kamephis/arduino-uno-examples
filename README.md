@@ -2,7 +2,7 @@
 This repository contains a collection of Arduino uno example sketches
 
 # Examples
-All examples are located in the example folder
+All examples are located in the sketches folder
 
 1. Basic text example
 This example uses the LiquidDisplay.h library and demonstrates how to display a text string on the 16x2 Display
